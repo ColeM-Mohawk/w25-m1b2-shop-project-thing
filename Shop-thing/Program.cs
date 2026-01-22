@@ -16,7 +16,7 @@ Console.WriteLine("Well I have a fine nice 'bronze sword' for sale, only 15 gold
 Console.WriteLine("Do you wish to purchase it?");
 string dopurchasesword = Console.ReadLine();
 
-if (dopurchasesword == "yes")
+if (dopurchasesword.ToLower() == "yes")
 {
     if (heldgold >= 15)
     {
