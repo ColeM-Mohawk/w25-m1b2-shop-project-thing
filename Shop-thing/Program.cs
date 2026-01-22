@@ -26,7 +26,7 @@ if (dopurchasesword == "yes")
     }
     else
     {
-        Console.WriteLine("Sorry but you don't have enough coin, come back when you do.");
+        Console.WriteLine($"Sorry {playername} but you don't have enough coin, come back when you do.");
     }
 
 }
